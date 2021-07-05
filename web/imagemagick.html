@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>ImageMagick Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+<main role="main">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4 mb-4">ImageMagick Test!</h1>
+            <form method="post" action="imagemagick.php" enctype="multipart/form-data" id="loadform">
+                <div class="row">
+                    <div class="col-auto col-lg-10">
+                        <div class="form-group">
+                            <label for="fileselect">Select an image file</label>
+                            <input type="file" name="image" class="form-control" id="fileselect">
+                        </div>
+                        <div class="form-group">
+                            <label for="text1">Label #1</label>
+                            <input type="text" class="form-control" id="text1" name="text1" maxlength="35" aria-describedby="text1Help">
+                            <small id="text1Help" class="form-text text-muted">Maximum 35 characters (will be trimmed)</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="text2">Label #2</label>
+                            <input type="text" class="form-control" id="text2" name="text2" maxlength="65" aria-describedby="text2Help">
+                            <small id="text2Help" class="form-text text-muted">Maximum 65 characters (will be trimmed)</small>
+                        </div>
+                        <button id="but_upload" type="submit" class="btn btn-primary">Upload &amp; Test</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>

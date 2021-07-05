@@ -1,0 +1,16 @@
+{
+    "name": "icemont/simple-imagick-footer",
+    "description": "Simple ImageMagick Footer",
+    "type": "metapackage",
+    "require-dev": {
+        "ext-imagick": "^3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Icemont",
+            "email": "ray.icemont@gmail.com"
+        }
+    ],
+    "require": {}
+}
